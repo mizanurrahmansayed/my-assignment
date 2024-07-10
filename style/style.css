@@ -1,0 +1,19 @@
+body {
+    background-image: url('../assets/Hero-bg.png');
+    width: 1440px;
+    height: 652px;
+    justify-content: center;
+    background-repeat: no-repeat;
+    text-align: center;
+    
+    
+  }
+.banner{
+    text-align: center;
+}
+.btn-primary{
+    background-color:  #0D1321;
+    color: white;
+    padding: 10px;
+    cursor: context-menu;
+}
