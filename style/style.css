@@ -1,19 +1,99 @@
-body {
-    background-image: url('../assets/Hero-bg.png');
-    width: 1440px;
-    height: 652px;
+
+#hero{
+    height: 400px;
+    background-image: url("../assets/hero-bg.png");
+    background-size: cover;
+    background-position: center;
+    display: flex;
     justify-content: center;
-    background-repeat: no-repeat;
-    text-align: center;
-    
-    
-  }
-.banner{
-    text-align: center;
+    align-items: center;
 }
-.btn-primary{
+.btn{
     background-color:  #0D1321;
     color: white;
     padding: 10px;
-    cursor: context-menu;
+}
+.hed-title{
+    margin: 20px 300px;
+}
+.title{
+    text-align: center;
+    margin-top: 20px;
+    resize: horizontal 980;
+    resize: vertical 136;
+}
+.hero-content{
+    text-align: center;
+}
+.image{
+    font-size: 240px 240px;
+}
+.description{
+    text-align: center;
+    margin-top: 20px;
+}
+.image-one{
+    background-position: bottom right;
+    width: 274px;
+}
+.banner{
+    display: flex;
+    justify-content: center;
+   
+}
+.div-main{
+    justify-content: center;
+    text-align: center;
+    width: 1140px 1368px;
+    margin: 30px 260px;
+    background-color:rgba(255, 255, 255, 1);
+}
+.div-two{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+}
+.div-three{
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+
+}
+.youtube{
+    text-align: center;
+}
+
+.skills{
+    padding: 30px;
+    border-radius: 5px;
+    box-shadow: 0px 6px 50px  rgba(0, 0, 0, 0.06);
+}
+.skills-container{
+    display: flex;
+    gap: 24px;
+    margin: 20px 260px;
+}
+.text-center{
+    text-align: center;
+    margin: 20px 260px;
+}
+.last{
+    background-image: url('../assets/handshake.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 1140px;
+    height: 230px;
+    color: aliceblue;
+    background-size: cover;
+    align-items: center;
+    display: block;
+    text-align: center;
+     margin: 20px 260px;
+}
+.challenge{
+    display: flex;
+    justify-content: space-around;
+    margin: 32px 150px;
+    
+    background-color: #FFFFFF;
 }
